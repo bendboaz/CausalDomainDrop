@@ -1,0 +1,21 @@
+- [V] Dirty-patch the CausaLM files
+- [V] Figure out what I need to do for pregenerate_training_data
+- [V] Bring the run_experiment file to input-ready state
+    - Salvage what I can from the datasets
+- [V] Binarize the pivots (threshold hyperparam?)
+- Match the scripts:
+    - [V] pregenerate
+    - [V] pretrain
+    - finetune:
+        - [V] Load model from the pretraining function.
+        - [V] Move BERT weights to one of my modules.
+        - [V] Finetune on source.
+        - [V] Accuracy + F1 on source
+        - [V] Accuracy + F1 on target
+- Apply all changes from `pivots_finetune_on_pregenerated` to `mlm_finetune_on_pregenerated`
+- Where do we check the pivot frequencies in source/target?
+
+
+Low Priority:
+    - [V] Better ordered naming scheme for pregenerated epoch directories, additional pretraining outputs etc.
+    - epoch-by-epoch metrics (from pretraining and finetuning).

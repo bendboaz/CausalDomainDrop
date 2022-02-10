@@ -1,0 +1,8 @@
+# Default ignored files
+/workspace.xml
+
+user_specific.ini
+example_config.yml
+causalm_base.yml
+.idea/__pycache__
+*__pycache__*
